@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size:62.5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -37,4 +37,18 @@ header nav ul{
     justify-content: space-around;
     list-style: none;
     padding: 1rem;
+}
+
+header nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.image-container {
+    max-width: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: auto;
 }
