@@ -8,6 +8,7 @@
     --bay-of-many: rgb(33,65,129);
     --eagle: rgb(189,190,172);
     --swans-down: rgb(217,235,239);
+    --apricot-peach: rgb(251,214,191)
 }
 
 html {
@@ -73,6 +74,7 @@ header h1 {
     flex: 1 0 100%;
     text-align: center;
     padding: .5rem;
+    background: var(--bay-of-many);
 }
 
 .card ul li a {
@@ -92,18 +94,19 @@ header h1 {
     .card {
         flex: 1 0 50%;
     }
-     .projects {
+     .sub-card {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
      }
-     .projects li {
+     .sub-card li {
         flex-direction: column;
         flex: 1 0 50%;
-        max-width: 50%;
+        max-width: 100%;
         list-style: none;
         padding: .5rem;
      }
+     
     
 
 }
